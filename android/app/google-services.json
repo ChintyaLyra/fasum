@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "941184590133",
+    "project_id": "fasum-app-33f0c",
+    "storage_bucket": "fasum-app-33f0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941184590133:android:f49668c925d331ca1f6c7c",
+        "android_client_info": {
+          "package_name": "com.example.fasum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941184590133-i0bq0fdicekj6qsh7bkdcmtce6c9gge3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fasum",
+            "certificate_hash": "5ac4fc529cf85a166708dc8d17ac957f6433deba"
+          }
+        },
+        {
+          "client_id": "941184590133-gnbb72jfjfiv4o7o6tc0asj9onkf5iu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz7BZkbXpBm-4IwvSiHdxIOLHofVdbbaA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941184590133-bu0sg1aulc0vh4ujte6n6d3anv6ufruf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941184590133-e1pqldp2jb2m3enq5eq2a2slq4e5o9vn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fasum"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
