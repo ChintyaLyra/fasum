@@ -27,7 +27,8 @@ if (flutterVersionName == null) {
 
 android {
     namespace "com.example.fasum"
-    compileSdkVersion flutter.compileSdkVersion
+    //compileSdkVersion flutter.compileSdkVersion
+    compileSdkVersion 34
     ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -52,6 +53,7 @@ android {
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -67,4 +69,6 @@ flutter {
     source '../..'
 }
 
-dependencies {}
+dependencies {
+    implementation 'com.android.support:multidex:1.0.3'
+}
